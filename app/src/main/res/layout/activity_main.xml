@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.my10_21_jianzao.MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button_tongzhi"
+    android:text="通知所有"/>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/flayout"
+       android:layout_weight="1"
+       ></FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:id="@+id/linLayout"
+    android:gravity="center_vertical">
+   <Button
+       android:layout_width="0dp"
+       android:layout_height="70dp"
+       android:layout_weight="1"
+       android:id="@+id/shouye"
+       android:text="首页"/>
+   <Button
+       android:layout_width="0dp"
+       android:layout_height="70dp"
+       android:layout_weight="1"
+       android:id="@+id/shipin"
+       android:text="视频"/>
+   <Button
+       android:layout_width="0dp"
+       android:layout_height="70dp"
+       android:id="@+id/my"
+       android:text="我的"
+       android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>
